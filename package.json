@@ -1,0 +1,17 @@
+{
+  "name": "cypress-encuesta-isa",
+  "version": "1.0.0",
+  "description": "Test E2E con Cypress de la encuesta final de Ingeniería de Software Aplicada (UM)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "lint": "eslint cypress"
+  },
+  "devDependencies": {
+    "cypress": "^16.3.0",
+    "eslint": "^10.14.0",
+    "eslint-plugin-cypress": "^7.0.4"
+  }
+}
